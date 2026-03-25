@@ -18,7 +18,7 @@ urlpatterns = [
     path("api/chat/", include("chat.urls")),
     path("api/users/", include("users.urls")),
     path("api/pets/", include("pets.urls")),
-    path("api/orders/", include("orders.urls")),
+    path("api/", include("orders.urls")),
 
     # ── Pages (MVT) ───────────────────────────────────────────────────────────
     path("", include("users.page_urls")),
